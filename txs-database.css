@@ -735,6 +735,9 @@ table th {
     color: var(--hedT);
     background-color: var(--hedBg);
     z-index: 2;
+    border: 1px solid;
+    border-radius:15px;
+    margin:20px;
 }
 .maH.sticky::after {
     inset-inline: 0;
@@ -1074,7 +1077,7 @@ table th {
         border-radius: var(--mainBd-rad);
         background-color: var(--mainBg);
         transition: inset var(--tTime), transform var(--tTime), var(--tShow);
-        box-shadow: 4px 4px var(--mainBd-color);
+        border-radius: 15px;
         transform: translate(-4px, -4px);
         opacity: 0;
         visibility: hidden;
