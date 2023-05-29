@@ -10,9 +10,10 @@
     </header>
     <div class="container">
         <div id="fileList">
-            <a href="/codebox.min.js"><div class="fileName">codebox.min.js</div></a>
+           <center> <a href="/codebox.min.js"><div class="fileName">codebox.min.js</div></a>
             <!-- File list will be dynamically generated using JavaScript -->
-        </div>
+               </center>
+               </div>
         <div id="loadingMessage">Loading...</div>
     </div>
 
@@ -88,41 +89,3 @@ h1 {
 }
 </style>
 
-<script>
-window.addEventListener('DOMContentLoaded', () => {
-    const fileListElement = document.getElementById('fileList');
-    const loadingMessageElement = document.getElementById('loadingMessage');
-
-    loadingMessageElement.style.display = 'block';
-
-    fetch('https://api.cdn.itz-txs.com/files')
-        .then(response => response.json())
-        .then(data => {
-            // Generate HTML for the file list
-            data.files.forEach(file => {
-                const listItem = document.createElement('div');
-                listItem.classList.add('fileItem');
-                listItem.innerHTML = `
-                    <div class="fileName">${file.name}</div>
-                    <div class="fileSize">${formatFileSize(file.size)}</div>
-                `;
-                fileListElement.appendChild(listItem);
-            });
-
-            loadingMessageElement.style.display = 'none';
-        })
-        .catch(error => {
-            console.error('Error fetching file list:', error);
-            loadingMessageElement.textContent = 'Error loading file list.';
-        });
-
-
-    function formatFileSize(bytes) {
-        if (bytes === 0) return '0 Bytes';
-        const k = 1024;
-        const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
-        const i = Math.floor(Math.log(bytes) / Math.log(k));
-        return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
-    }
-});
-</script>
