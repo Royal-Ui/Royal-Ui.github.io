@@ -1,91 +1,288 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>GitHub CDN Files List</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>GitHub CDN Files List</h1>
-    </header>
-    <div class="container">
-        <div id="fileList">
-           <center> <a href="/codebox.min.js"><div class="fileName">codebox.min.js</div></a>
-            <!-- File list will be dynamically generated using JavaScript -->
-               </center>
-               </div>
-        <div id="loadingMessage">Loading...</div>
-    </div>
 
-    <script src="script.js"></script>
-</body>
-</html>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.3.0' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale.language' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<b:attr name='xmlns' value='' />
+<b:attr name='xmlns:b' value='' />
+<b:attr name='xmlns:expr' value='' />
+<b:attr name='xmlns:data' value='' />
+
+  <!--[ <head> Open/Close ]-->
+  <head></head>
+
+  <title>TxS Database</title>
+
+  <!--[ Meta for browser ]-->
+  <meta charset='UTF-8'/>
+  <meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/>
+  <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
 
 <style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-h1 {
-    margin: 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #f5f5f5;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-#fileList {
-    margin-bottom: 20px;
-}
-
-#loadingMessage {
-    text-align: center;
-    font-style: italic;
-    color: #888;
-    display: none;
-    margin-top: 20px;
-}
-
-.fileItem {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    transition: background-color 0.3s ease;
-    cursor: pointer;
-}
-
-.fileItem:hover {
-    background-color: #f9f9f9;
-}
-
-.fileName {
-    flex: 1;
-    margin-right: 10px;
-}
-
-.fileSize {
-    color: #888;
-}
-
-@media screen and (max-width: 600px) {
-    .container {
-        padding: 10px;
-    }
-}
+  /* TxS Database */ .boT .t .n:not(.nl)::after,.button,.domain td:not(.n),.ellips{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.dg .i,.pg .im{--w:calc(100% + var(--p))}.dg .i,.erP,.maLT,.pg .im{text-align:center}.button.sc:hover,.cInherit.u a:hover,abbr[title]{text-decoration:underline}.relative,body,sub,sup{position:relative}.button.ln,.cInherit a{color:inherit}.extL::after,img{display:inline-block}.maFM a:hover,body{color:var(--coreT-prim)}.boT .t .a:not(.ah)::before,.boT .t .n:not(.nl)::after,.button span[data-text]::after,.maFM nav[dat-text]::before,.maLT .b::after,.noT.nJ span::before,.tag .a::before{content:attr(data-text)}.table,html{scroll-behavior:smooth}:root{--fontBase:16px;--fontHead:'Titillium Web',sans-serif;--fontBody:'Noto Sans',sans-serif;--fontCode:'Fira Mono',sans-serif;--unicode:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;--fontA:.938rem;--fontD:.875rem;--fontM:.813rem;--fontMM:.75rem;--h-fontW:600;--h1:2rem;--h2:1.9rem;--h3:1.75rem;--h4:1.7rem;--h5:1.6rem;--h6:1.55rem}.nB{--coreT-prim:#191919;--coreT-dim:#585B63;--coreLink:#3740FF;--coreBg:#FFFDFC;--coreBg-dim:#F8F9FA;--coreBg-gray:#D2D3D7;--coreBg-pop:rgb(255 253 252 / 50%);--coreBd-color:#323232;--selT:currentColor;--selBg:#D2D3D7;--placeH:var(--coreT-dim);--icWidth:35px;--icHeight:35px;--hedS:'';--hedH:80px;--hedH-mob:80px;--hed-font:1.125rem;--hed-fontW:600;--hedT:currentColor;--hedBg:var(--coreBg);--hed-logoW:160px;--hed-logoH:50px;--mainW-max:1220px;--mainPage-max:860px;--mainPadding:22px;--mainSpace:40px;--mainT-prim:currentColor;--mainT-dim:var(--coreT-dim);--mainBg:var(--coreBg);--mainBg-dim:var(--coreBg-dim);--mainBg-gray:var(--coreBg-gray);--mainBd-line:1px;--mainBd-color:var(--coreBd-color);--mainBd-rad:2.5px;--fotT:currentColor;--fotBd-line:1px;--fotBd-color:var(--coreBd-color);--posT-fontW:700;--posT-fontMin:2.125rem;--posT-fontMax:2.625rem;--posTi-fontMin:1.1rem;--posTi-fontMax:1.1rem;--posB-fontMin:.93rem;--posB-fontMax:1rem;--lineHeight:1.65;--tableBg:rgb(246 246 246 / 80%);--tTime:.1s ease;--tShow:opacity var(--tTime),visibility var(--tTime);--free:'Free!';--new:'New!';--breadC:'\002F';--noImg:'null'}@font-face{font-family:'Noto Sans';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/notosans/v27/o-0OIpQlx3QUlC5A4PNr4ARCQ_k.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Noto Sans';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr5TRA.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Noto Sans';font-style:italic;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/notosans/v27/o-0TIpQlx3QUlC5A4PNr4AyxYOyDzW0.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Noto Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjFhdVZNyB.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Noto Sans';font-style:italic;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/notosans/v27/o-0TIpQlx3QUlC5A4PNr4AydZ-yDzW0.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Noto Sans';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjOhBVZNyB.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Noto Sans';font-style:italic;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/notosans/v27/o-0TIpQlx3QUlC5A4PNr4Az5ZuyDzW0.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Noto Sans';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/notosans/v27/o-0NIpQlx3QUlC5A4PNjXhFVZNyB.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Titillium Web';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/titilliumweb/v15/NaPecZTIAOhVxoMyOr9n_E7fdMPmDQ.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Titillium Web';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/titilliumweb/v15/NaPAcZTIAOhVxoMyOr9n_E7fdMbWD6xW.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Titillium Web';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/titilliumweb/v15/NaPDcZTIAOhVxoMyOr9n_E7ffBzCGItzYw.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Titillium Web';font-style:italic;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/titilliumweb/v15/NaPFcZTIAOhVxoMyOr9n_E7fdMbe0IhDYZyc.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Titillium Web';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/titilliumweb/v15/NaPDcZTIAOhVxoMyOr9n_E7ffHjDGItzYw.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Titillium Web';font-style:italic;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/titilliumweb/v15/NaPFcZTIAOhVxoMyOr9n_E7fdMbetIlDYZyc.woff2) format('woff2');unicode-range:var(--unicode)}@font-face{font-family:'Fira Mono';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/firamono/v14/N0bX2SlFPv1weGeLZDtgJv7S.woff2) format('woff2');unicode-range:var(--unicode)}::selection{color:var(--selT);background-color:var(--selBg)}::placeholder{color:var(--placeH);opacity:.6;transition:var(--tShow)}*,::after,::before{-webkit-box-sizing:border-box;box-sizing:border-box}html{overflow-x:hidden;font:var(--fontBase) var(--fontBody)}body{margin:0;padding:0!important;background-color:var(--coreBg);-webkit-font-smoothing:antialiased}h1,h2,h3,h4,h5,h6{margin-block:.67em;font:var(--h-fontW) 1.4rem/1.4 var(--fontHead);color:currentColor}h1{font-size:var(--h1)}h2{font-size:var(--h2)}h3{font-size:var(--h3)}h4{font-size:var(--h4)}h5{font-size:var(--h5)}h6{font-size:var(--h6)}a{color:var(--coreLink);text-decoration:none}.button:active,a:hover{filter:brightness(.9)}sub,sup{font-size:70%;line-height:0;vertical-align:baseline}sub{inset-block-end:-.25em}sup{inset-block-start:-.5em}abbr[title]{border-bottom:none}iframe{width:100%;border:0;margin-inline:auto}figure{margin-inline:0}img{max-width:100%;height:auto;border-style:none}svg{--svg:24px;width:var(--svg);height:var(--svg);fill:currentColor}svg .line,svg.line{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}.fc::after{content:'';position:fixed;inset:0;z-index:1;transition:background var(--tTime),var(--tShow),backdrop-filter var(--tTime);background-color:transparent;opacity:0;visibility:hidden}:is(.free,.new)::after{display:inline-block;content:var(--free);color:var(--coreLink);font-weight:400;font-size:small;text-indent:5px}.new::after{content:var(--new)}.extL::after{content:'';width:14px;height:14px;margin-inline-start:6px;background:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23989b9f' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><line x1='7' y1='17' x2='17' y2='7'/><polyline points='7 7 17 7 17 17'/><\/svg>") center/16px no-repeat}.clear,.noMargin{margin:0}.noList,.noList :where(ul,ol){list-style:none;margin:0;padding:0}.boT,.maM .tt,.pg,.ph{margin-block-end:20px}.block,.noList li{display:block}.noWrap{white-space:nowrap}.break{word-break:break-word}.noFilter a:hover{filter:none}.colorDim{color:var(--coreT-dim)}.colorLink{color:var(--coreLink)}.bgInherit{background-color:inherit}.bgDim{background-color:var(--mainBg-dim)}.bgGray{background-color:var(--mainBg-gray)}.clamp{-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.strike{text-decoration:line-through}.flex{display:flex}.flex.center{align-items:center;justify-content:center}.flex.centerA,.flexIn.center{align-items:center}.flex.centerJ{justify-content:center}.flex.column{flex-direction:column}.flex.wrap{flex-wrap:wrap}.flex.space-between{justify-content:space-between}.flex.baseline,.flexIn.baseline{align-items:baseline}.flexIn{display:inline-flex}.shrink{flex-shrink:0}.grow{flex-grow:1}.op svg,.opacity{opacity:.8}.invisible,.maHM .a::after{opacity:0;visibility:hidden}.hidden,[hidden]{display:none}.inline{display:inline}.clear{width:100%;display:block;padding:0;float:none;clear:both}.btnF,.table{margin-block:1em}.button{display:inline-flex;align-items:center;column-gap:10px;max-width:var(--btnW-max);padding-block:.65rem;padding-inline:1rem;outline:0;border:0;border-radius:var(--btnBd-rad);color:var(--btnT);background-color:var(--btnBg);font:.937rem/1.5 var(--fontBody)}.button.ln,.button.sh{border:var(--btnBd-line) solid var(--btnBd-color);background-color:transparent}.fontH,.maFM nav[dat-text]::before{font-family:var(--fontHead)}.button:hover{filter:brightness(1.1)}.button.ln{transition:border var(--tTime),box-shadow var(--tTime)}.button.ln:hover{border-color:var(--btnBg);box-shadow:0 0 0 .5px var(--btnBg) inset}.button.sc{padding-inline:0;color:currentColor;background-color:transparent}.button.sh{padding-inline:1.3rem;color:inherit;transition:transform var(--tTime),box-shadow var(--tTime)}.button.sh:hover{transform:translate(-4px,-4px);box-shadow:4px 4px var(--btnBd-color);filter:none}.button.round{border-radius:30px}.button svg{--svg:20px;flex-shrink:0;stroke-width:1.5}.button span[data-text]::after{display:inline-block;font-size:smaller;text-indent:4px;opacity:.8}.btnF{display:flex;justify-content:center;gap:12px}.ic{display:inline-flex;flex-shrink:0;align-items:center;justify-content:center;min-width:var(--icWidth);height:var(--icHeight)}:is(.i12,.i14,.i16,.i18,.i20,.i22,.i28) svg{flex-shrink:0}.i12 svg{--svg:12px}.i14 svg{--svg:14px}.i16 svg{--svg:16px}.i18 svg{--svg:18px}.i20 svg{--svg:20px}.i22 svg{--svg:22px}.i28 svg{--svg:28px}.fontA{font-size:var(--fontA)}.fontD,table{font-size:var(--fontD)}.fontDM{font-size:clamp(.813rem, .758rem + .208vw, .875rem)}.fontM{font-size:var(--fontM)}.fontMM{font-size:var(--fontMM)}.fontS{font-size:small}.fontSm{font-size:smaller}.fontB{font-family:var(--fontBody)}.fontC{font-family:var(--fontCode)}.fontW-400{font-weight:400}.fontW-500,table th{font-weight:500}.erP .t,.fontW-600,.noT.nJ .c{font-weight:600}.fontW-700{font-weight:700}.erP{height:100dvh}.erPC{width:min(calc(100% - (var(--mainPadding) * 2.5)),450px)}.erP .e{color:rgb(0 0 0 / 10%);font-size:clamp(3.2rem, 2.935rem + 1.008vw, 3.5rem)}.erP .t{font-size:clamp(1.312rem, 1.234rem + .296vw, 1.4rem)}.erP p{margin-block:20px 30px;line-height:1.5}.noJS :is(.noscript,.lazyYt){display:none}.noT{position:fixed;inset-inline-start:var(--mainPadding);inset-block-end:var(--mainPadding);max-width:400px;padding-block:20px;padding-inline:20px;border-radius:var(--mainBd-rad);color:#d9e2f0;background:#323232;font-size:var(--fontM);line-height:1.4;font-family:var(--fontBody);box-shadow:0 15px 30px -8px rgb(0 0 0 / 8%);z-index:20}.Header,.dg .i span,.pg .im span{background-position:center;background-repeat:no-repeat}.noT.nJ{--p:50px;padding-block-end:var(--p)}.domain tr:nth-child(n+5):not(:last-child),.no-items,.noT.nJ:not(:target),.noT.nJ:not([open]){display:none}.noT.nJ summary{display:flex;align-items:center;position:absolute;inset-block-end:0;inset-inline-end:0;height:var(--p);padding-inline:20px}.noT.cP{--h:var(--opH);inset-block-end:-100%;display:inline-flex;align-items:center;padding-block:15px;transition:inset var(--tTime),var(--tShow);animation:2.2s ease-in forwards noT}.noT.cP::before{content:var(--copied)}.maH.sticky::after,.maHM .a::after{content:'';inset-block-end:0;position:absolute}.boT.i,.maLT .b{margin-block-end:1rem}.max{max-width:var(--mainW-max);margin-inline:auto;padding-left:var(--mainPadding);padding-right:var(--mainPadding)}.maW{--maxW:900px;min-height:100dvh}.maW.it{--maxW:var(--mainPage-max)}.maH{height:var(--hedH);color:var(--hedT);background-color:var(--hedBg);z-index:2}.maH.sticky::after{inset-inline:0;border-block-end:0px solid var(--mainBd-color)}.maH .max{--hdLogo:200px;--g:35px;gap:4rem;height:100%}.maHT{max-width:var(--hdLogo)}.maHR{width:calc(100% - var(--hdLogo))}.maHR>:first-child{margin-inline-end:auto}.maHM{gap:var(--g)}.maHM li>*{padding-block:12px}.maHM .a::after{inset-inline-start:1px;width:0;height:2px;border-radius:2px;background-color:currentColor;transition:width var(--tTime),var(--tShow)}.maHM .a:hover::after{width:20px;opacity:.8;visibility:visible}.maHI{gap:8px;margin-inline:var(--g) -9px}.maB,.maLT{margin-inline:auto}.maHI .bC:not([data-text="0"])::before{--w:16px;content:attr(data-text);display:flex;align-items:center;justify-content:center;position:absolute;inset-block-start:-1px;inset-inline-end:2px;min-width:var(--w);height:var(--w);padding-inline:4px;border-radius:20px;color:#fffdfc;background-color:#ed3f5a;font:600 9px var(--fontHead)}.maL{padding-block:5rem}.maL.i{padding-block:3rem 0}.maB:not(.i),.maLT{width:min(90%,var(--maxW))}.maLT .b{gap:8px;font-size:clamp(.938rem, .781rem + .391vw, 1rem)}.maLT .t{margin-block:0 1.5rem;font-weight:400;font-size:clamp(2.125rem, 1.684rem + 1.681vw, 2.625rem);line-height:1.25;z-index:1}:is(.maLT .t,.pt .name.i) .i::after{content:'';position:absolute;inset-block-end:0;inset-inline-end:-25px;width:clamp(4.875rem,4.324rem + 2.101vw,5.5rem);height:28px;background-color:var(--bs);z-index:-1}.maLT .d,.pd{color:var(--coreT-dim);font-size:clamp(.919rem, .842rem + .292vw, 1.006rem);line-height:1.6}.dt .t,.pt .name:not(.i){font-size:var(--posTi-fontMax)}.maS svg{width:100%;height:30px;color:var(--coreBg);transform:rotateY(180deg)}.maM,.maN{padding-block:3rem 5rem}.maN.i{padding-block:2rem}.maF{padding-block:2.5rem 2rem;border-block-start:var(--fotBd-line) solid var(--fotBd-color);color:var(--fotT)}.maF .max{column-gap:4rem}.maFC{align-self:center;font-size:.78rem;line-height:1.3}.maFM{gap:2rem 4rem}.maFM nav[dat-text]::before{display:block;margin-block-end:10px;font-weight:700}.maFM li{flex-shrink:0}.maFM li:not(:last-child)::after{content:'\00b7';margin-inline:14px;opacity:.8}.Header{width:100%;background-size:100%}.Header img{max-width:var(--hed-logoW);max-height:var(--hed-logoH)}.heN{font-weight:var(--hed-fontW);font-size:var(--hed-font)}.pe{font-size:var(--posB-fontMax)}.heT{min-width:48px}.heT .JD{display:block;width:30px;height:clamp(1.625rem,1.404rem + .84vw,1.875rem);margin-inline-start:-2px}.maB.i,.maB.ip{width:min(90%,var(--mainPage-max))}.boC.f>*{--p:22px;width:calc((100% / 3) - (var(--g) * 2/3));padding:var(--p);border:1px solid var(--mainBd-color);border-radius:var(--mainBd-rad);background-color:var(--mainBg);transition:box-shadow var(--tTime),transform var(--tTime)}.boC.f>article.p:hover{box-shadow:4px 4px var(--mainBd-color);transform:translate(-4px,-4px)}.pg .im{width:var(--w);margin-inline:calc(var(--p)/ -2);padding-block-start:var(--w);background-color:var(--coreBg-dim)}.pg .im span{inset:0}.pe{margin-block-start:1.5rem;line-height:var(--lineHeight);transition:font var(--tTime)}.pe :is(h1,h2,h3,h4,h5,h6){margin-block-start:1em;padding-block-start:0;font-weight:700;line-height:1.3;transition:margin var(--tTime),padding var(--tTime)}.boT .t,table{line-height:1.4}.pe :is(h1,h2,h3,h4,h5,h6):target{margin-block-start:0;padding-block-start:calc(var(--hedH)/ 2)}.pe :is(h1,h2,h3,h4,h5,h6).h::before{content:attr(data-text)}.table{padding-block-end:4px;overflow-y:hidden;overflow-x:auto}.table.w90 table:not(.tr-caption-container){min-width:90%}.table.w100 table:not(.tr-caption-container){min-width:100%}.table.noLine table th:not(:last-child),.table.noLine table:not(.tr-caption-container) td:not(:last-child){border-inline-end-color:transparent}.table.hoverBg table:not(.tr-caption-container) tbody tr:hover,.table.hoverTd td:hover,.table.withBg table:not(.tr-caption-container) tbody tr:nth-child(odd){background-color:var(--tableBg)}table{border-spacing:0}table:not(.tr-caption-container){border:1px solid var(--mainBd-color);border-radius:var(--mainBd-rad);overflow:hidden}table th,table:not(.tr-caption-container) td{padding:14px;border-width:0;border-style:solid;border-color:var(--mainBd-color)}table th:not(:last-child),table:not(.tr-caption-container) td:not(:last-child){border-inline-end-width:1px}table th,table:not(.tr-caption-container) tr:not(:last-child) td{border-block-end-width:1px}table th{text-align:start}.domain{counter-reset:n}.domain .n{counter-increment:n}.domain .n::before{content:counter(n) '.'}.domain td:not(.n){max-width:225px}@media screen and (min-width:768px){::-webkit-scrollbar{-webkit-appearance:none;width:4px;height:5px}::-webkit-scrollbar-track{background-color:transparent}::-webkit-scrollbar-thumb{background-color:rgb(0 0 0 / 15%);border-radius:10px}::-webkit-scrollbar-thumb:hover{background-color:rgb(0 0 0 / 35%)}::-webkit-scrollbar-thumb:active{background-color:rgb(0 0 0 / 35%)}}@media screen and (max-width:768px){.maF .max{column-gap:2rem}.maFC{flex-shrink:0;align-self:baseline}}@media screen and (max-width:640px){.maHM,.table{display:flex}.table{padding-inline:var(--mainPadding)}.maH .max,.maHM{gap:0}.nB{--hedH:var(--hedH-mob);--posT-fontMax:var(--posT-fontMin);--posTi-fontMax:var(--posTi-fontMin);--posB-fontMax:var(--posB-fontMin)}.maHM{flex-direction:column;position:absolute;inset-block-start:0;inset-inline-end:0;min-width:100px;max-width:160px;padding:10px 15px;border:var(--mainBd-line) solid var(--mainBd-color);border-radius:var(--mainBd-rad);background-color:var(--mainBg);transition:inset var(--tTime),transform var(--tTime),var(--tShow);box-shadow:4px 4px var(--mainBd-color);transform:translate(-4px,-4px);opacity:0;visibility:hidden;z-index:2}.maHM li>*{display:inline-block;padding-block:5px}.maHM .a::after{display:none}.forM:checked~.maHR .maHM{inset-block-start:5px}.forM:checked~.maHR .mC::after,.forM:checked~.maHR .maHM{opacity:1;visibility:visible}.maLT{text-align:start}:is(.boC.f,.coM)>*{width:calc((100% / 2) - (var(--g)/ 2))}}@media screen and (max-width:500px){.noT{inset-block-end:0;inset-inline:0;width:100%;max-width:100%;border-radius:0}.noT.cP{min-height:var(--h);margin-block-end:calc(var(--mainPadding) * -1)}.table{position:relative;width:calc(100% + (var(--mainPadding) * 2));margin-inline:calc(var(--mainPadding) * -1)}:is(.boC.f,.coM)>*{width:100%}}@keyframes noT{0%{opacity:0}10%,80%{opacity:1;inset-block-end:var(--mainPadding)}100%{opacity:0;inset-block-end:-100%;visibility:hidden}}.scrlH::-webkit-scrollbar{width:0;height:0}.scrlH::-webkit-scrollbar-track{background-color:transparent}.scrlH::-webkit-scrollbar-thumb{background-color:transparent;border:none}@media print{.noPrint{display:none}}.maM .tt h2::after{content:' \2014'}.boT .t{overflow:hidden}.boT .t .a:not(.ah)::before,.tag .a::before{content:attr(data-text)}.boT .t .n:not(.nm){padding-inline-start:8px}.boT .t .n:not(.nl)::after{content:attr(data-text)}.boT .t .nm::before{content:var(--breadC);flex-shrink:0;color:var(--coreT-dim);margin-inline:8px;font-weight:400}.boN{gap:10px;justify-content:flex-end;margin-block-start:3.5rem}.boN .p{margin-inline:-2px auto}.boN .p::after{content:var(--prev)}.boN .n::before{content:var(--next)}.boC.f{--g:14px;gap:var(--g)}.boC.f>*,:where(.Image,.Text) .dp{--p:22px;width:calc((100% / 3) - (var(--g) * 2/3));padding:var(--p);border:1px solid var(--mainBd-color);border-radius:var(--mainBd-rad);background-color:var(--mainBg);transition:box-shadow var(--tTime),transform var(--tTime)}.boC.f>article.p:hover,:where(.Image,.Text) .dp:hover{box-shadow:4px 4px var(--mainBd-color);transform:translate(-4px,-4px)}.ph{gap:8px;line-height:1.2}.fp,.maD{gap:var(--g)}:is(.tag .v){margin-inline-end:3px;vertical-align:middle}.tag .i[data-text]::before{content:attr(data-text);color:var(--coreT-dim)}.dg .i,.pg .im{width:var(--w);margin-inline:calc(var(--p)/ -2);padding-block-start:var(--w);background-color:var(--coreBg-dim);line-height:1.2;overflow:hidden}.pg .im.null::before{content:var(--noImg);position:absolute;inset-block-start:50%;inset-inline-start:50%;transform:translate(-50%,-50%)}.dg .i span,.pg .im span{position:absolute;inset:0;background-size:cover}.dt .t,.pt .name:not(.i){line-height:1.3}.pt .name.i{font-weight:var(--posT-fontW);font-size:var(--posT-fontMax);line-height:1.25;z-index:1}.ps .snippet{margin-block-start:10px;line-height:1.4}.ps:not(.all) .snippet{display:-webkit-box;-webkit-line-clamp:2}.pe{margin-block-start:3rem;line-height:var(--lineHeight);transition:font var(--tTime)}.maD{--g:22px}.maD>*{width:calc((100% / 3) - (var(--g) * 2/3))}.fp{--g:20px;--b:#8775f5}.fp>*{gap:5px;width:calc((100% / 4) - (var(--g) * 3/4));padding:18px;border:1px solid var(--mainBg-gray);border-radius:var(--mainBd-rad);background-color:var(--mainBg);transition:border var(--tTime),box-shadow var(--tTime)}.fp>:hover{border-color:var(--mainBd-color)}.fp>:not(.m):hover{box-shadow:0 0 0 .5px var(--mainBd-color) inset}.fp>:not(.m) .t{font-size:clamp(.938rem, .883rem + .208vw, 1rem)}.fp .m{border-style:dashed}.fp .i{gap:5px;margin-block-end:.65rem}:is(.maD,.fp)>*{width:calc((100% / 2) - (var(--g)/ 2))}.fp{gap:12px}
 </style>
 
+  <body class='noJS nB index home'>
+  
+  <!--[ Element ]-->
+  <div class='maW flex column bgInherit' id='top'>
+    
+ <!--[ Header ]-->
+ <header class="maH noPrint relative">
+   <div class="max flex centerA">
+     <input class="forM hidden" id="forMenu" type="checkbox" />
+      <input class="forB hidden" id="forBook" type="checkbox" />
+       <div class="maHT shrink cInherit notranslate noFilter section"id="header-title">
+               
+  <div class="widget Header" data-version="2" id="Header1">
+    <h1 class="heN noMargin d">
+     <span class="heT block" title="TxS">
+       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><g><path d='M24,28a1,1,0,0,1-.62-.22l-6.54-5.23a1.83,1.83,0,0,1-.13.16l-4,4a1,1,0,0,1-1.65-.36L8.2,18.72,2.55,15.89a1,1,0,0,1,.09-1.82l26-10a1,1,0,0,1,1,.17,1,1,0,0,1,.33,1l-5,22a1,1,0,0,1-.65.72A1,1,0,0,1,24,28Zm-8.43-9,7.81,6.25L27.61,6.61,5.47,15.12l4,2a1,1,0,0,1,.49.54l2.45,6.54,2.89-2.88-1.9-1.53A1,1,0,0,1,13,19a1,1,0,0,1,.35-.78l7-6a1,1,0,1,1,1.3,1.52Z'></path></g></svg></span></h1></div></div>
+
+  <!--[ Links ]-->              
+  <div class="maHR flex grow centerA relative section" id="header-menu">
+      <nav aria-label="main navigation">
+        <ul class="maHM noList flexIn baseline cInherit fontD"><li>
+          <a class="relative" href="https://www.itz-txs.com"> Blog </a>
+            </li><li>
+              <a class="relative" href="https://www.royal-ui.xyz">
+                Royal UI Pro</a></li></ul></nav></div>
+  <div class="maHI flex centerA relative">
+      <label aria-label="Menu" class="mC fc ic i20 relative" for="forMenu">
+        <svg class="line" viewBox="0 0 24 24">
+           <circle cx="12" cy="12" r="1.5"></circle>
+           <circle cx="12" cy="4.5" r="1.5"></circle>
+           <circle cx="12" cy="19.5" r="1.5"></circle>
+        </svg></label></div></div></header>
+
+  <!--[ Website Entry ]-->
+  <section class='maL'>
+    <div class='max'>
+      <div class='maLT'>
+        <div class='b flexIn center fontH i18' data-text='TxS Database'>
+          <svg class='line' viewbox='0 0 24 24'>
+              <ellipse cx='12' cy='5' rx='8' ry='3'></ellipse>
+              <path d='M7 10.8418C7.60158 11.0226 8.27434 11.1716 9 11.2817'></path>
+              <path d='M20 12C20 13.6569 16.4183 15 12 15C7.58172 15 4 13.6569 4 12'></path>
+              <path d='M7 17.8418C7.60158 18.0226 8.27434 18.1716 9 18.2817'></path>
+              <path d='M20 5V19C20 20.6569 16.4183 22 12 22C7.58172 22 4 20.6569 4 19V5'>
+         </path></svg></div>
+           <h2 class='t relative'>Heya! <strong> What's Up Guys </strong><br>
+             <strong>Welcome To You On </strong> <span class='i relative'style='--bs: #fdd834'>TxS Database Site</span>.</h2>
+               <p class='d'>A Next Gen Ui Blogger Theme With A Usefull And Atractive Features</p></div></div></section>
+               
+  <!--[ Royal UI Pro Features ]-->
+  <section aria-label="main features" class="maM" id="features">
+  <div class="max">
+    <div class="maB">
+      <div class="tt">
+        <h2 class="noMargin fontW-600 fontA fontH">Royal Ui Pro Features</h2>
+      </div>
+      <div class="section" id="feature-loop">
+          <div class="fp flex wrap">
+            <div class="b flex column relative">
+              <span class="i i18 flex centerA fontW-600 fontM fontH"
+                ><svg class="line" viewBox="0 0 24 24">
+                  <path
+                    d="M11.0809 13.152L8 7L13.4196 11.2796C14.1901 11.888 14.1941 13.0472 13.4277 13.6607C12.6614 14.2743 11.5189 14.0266 11.0809 13.152Z"
+                  ></path>
+                  <path
+                    d="M5 4.81986C3.14864 6.63888 2 9.17371 2 11.9774C2 17.5127 6.47715 22 12 22C17.5228 22 22 17.5127 22 11.9774C22 7.12406 18.5581 3.07642 13.9872 2.15274C13.1512 1.9838 12.7332 1.89933 12.3666 2.20008C12 2.50083 12 2.987 12 3.95935V4.96161"
+                  ></path></svg
+              ></span>
+              <h3 class="t noMargin fontH fontW-600">Fast loading</h3>
+              <p class="noMargin colorDim fontM">
+                Loads in under 1 second, compatible with major browsers
+              </p>
+            </div>
+            <div class="b flex column relative">
+              <span class="i i18 flex centerA fontW-600 fontM fontH"
+                ><svg class="line" viewBox="0 0 24 24">
+                  <path
+                    d="M15.5 12C15.5 13.933 13.933 15.5 12 15.5C10.067 15.5 8.5 13.933 8.5 12C8.5 10.067 10.067 8.5 12 8.5C13.933 8.5 15.5 10.067 15.5 12Z"
+                  ></path>
+                  <path
+                    d="M20.7906 9.15201C21.5969 10.5418 22 11.2366 22 12C22 12.7634 21.5969 13.4582 20.7906 14.848L18.8669 18.1638C18.0638 19.548 17.6623 20.2402 17.0019 20.6201C16.3416 21 15.5402 21 13.9373 21L10.0627 21C8.45982 21 7.6584 21 6.99807 20.6201C6.33774 20.2402 5.93619 19.548 5.13311 18.1638L3.20942 14.848C2.40314 13.4582 2 12.7634 2 12C2 11.2366 2.40314 10.5418 3.20942 9.152L5.13311 5.83621C5.93619 4.45196 6.33774 3.75984 6.99807 3.37992C7.6584 3 8.45982 3 10.0627 3L13.9373 3C15.5402 3 16.3416 3 17.0019 3.37992C17.6623 3.75984 18.0638 4.45197 18.8669 5.83622L20.7906 9.15201Z"
+                  ></path></svg
+              ></span>
+              <h3 class="t noMargin fontH fontW-600">Easy to use</h3>
+              <p class="noMargin colorDim fontM">
+                Easy to install and customize within minutes
+              </p>
+            </div>
+            <div class="b flex column relative">
+              <span class="i i18 flex centerA fontW-600 fontM fontH"
+                ><svg class="line" viewBox="0 0 24 24">
+                  <path
+                    d="M20 17.1862C18.843 18 17.2107 18 13.9462 18H9.96412C6.6996 18 5.06734 18 3.9103 17.1862C3.48223 16.8851 3.1099 16.5111 2.81017 16.0811C2 14.9188 2 13.2792 2 10C2 6.72077 2 5.08116 2.81017 3.91891C3.1099 3.48891 3.48223 3.1149 3.9103 2.81382C5.06734 2 6.6996 2 9.96412 2"
+                  ></path>
+                  <path d="M12 18V22"></path>
+                  <path d="M8 22H16"></path>
+                  <path
+                    d="M18 2C19.8856 2 20.8284 2 21.4142 2.58579C22 3.17157 22 4.11438 22 6V10C22 11.8856 22 12.8284 21.4142 13.4142C20.8284 14 19.8856 14 18 14H17C15.1144 14 14.1716 14 13.5858 13.4142C13 12.8284 13 11.8856 13 10L13 6C13 4.11438 13 3.17157 13.5858 2.58579C14.1716 2 15.1144 2 17 2L18 2Z"
+                  ></path>
+                  <path d="M17.5 11.5H17.509"></path></svg
+              ></span>
+              <h3 class="t noMargin fontH fontW-600">Fully responsive</h3>
+              <p class="noMargin colorDim fontM">
+                Automatically adapts to all screen sizes
+              </p>
+            </div>
+            <div class="b flex column relative">
+              <span class="i i18 flex centerA fontW-600 fontM fontH"
+                ><svg class="line" viewBox="0 0 24 24">
+                  <path
+                    d="M21 21H10C6.70017 21 5.05025 21 4.02513 19.9749C3 18.9497 3 17.2998 3 14V3"
+                  ></path>
+                  <path d="M7 4H8"></path>
+                  <path d="M7 7H11"></path>
+                  <path
+                    d="M5 20C6.07093 18.053 7.52279 13.0189 10.3063 13.0189C12.2301 13.0189 12.7283 15.4717 14.6136 15.4717C17.8572 15.4717 17.387 10 21 10"
+                    stroke-linejoin="round"
+                  ></path></svg
+              ></span>
+              <h3 class="t noMargin fontH fontW-600">SEO optimized</h3>
+              <p class="noMargin colorDim fontM">Pass the rich snippet test</p>
+            </div>
+            <div class="b flex column relative">
+              <span class="i i18 flex centerA fontW-600 fontM fontH"
+                ><svg class="line" viewBox="0 0 24 24">
+                  <path d="M2.5 3H21.5"></path>
+                  <path
+                    d="M4.5 3V13.999C4.5 16.3278 4.93059 17.0883 6.92752 18.2865L9.94202 20.0952C10.9447 20.6968 11.446 20.9976 12 20.9976C12.554 20.9976 13.0553 20.6968 14.058 20.0952L17.0725 18.2865C19.0694 17.0883 19.5 16.3278 19.5 13.999V3"
+                  ></path>
+                  <path d="M14.5 13H9.5M14.5 8H9.5"></path></svg
+              ></span>
+              <h3 class="t noMargin fontH fontW-600">Ad optimized</h3>
+              <p class="noMargin colorDim fontM">
+                Ready-to-use high CTR ad placements
+              </p>
+            </div>
+            <div class="b flex column relative">
+              <span class="i i18 flex centerA fontW-600 fontM fontH"
+                ><svg class="line" viewBox="0 0 24 24">
+                  <path
+                    d="M13.2852 19.3647L5.82243 20.7506C4.39103 21.0164 3.67534 21.1493 3.26303 20.737C2.85072 20.3246 2.98362 19.6089 3.24943 18.1774L4.63523 10.7143C4.85745 9.51762 4.96856 8.91925 5.36302 8.5577C5.75749 8.19616 6.47889 8.1256 7.9217 7.98448C9.31227 7.84847 10.6283 7.37177 12 6L18 12.0005C16.6283 13.3723 16.1513 14.6874 16.0151 16.0781C15.8738 17.5211 15.8031 18.2426 15.4416 18.637C15.0801 19.0314 14.4818 19.1425 13.2852 19.3647Z"
+                  ></path>
+                  <path
+                    d="M11 15.2105C10.4405 15.1197 9.92895 14.8763 9.52632 14.4737M9.52632 14.4737C9.12368 14.0711 8.8803 13.5595 8.78947 13M9.52632 14.4737L4 20"
+                  ></path>
+                  <path
+                    d="M12 6C12.7123 4.9491 13.6771 3.1812 15.1065 3.01098C16.0822 2.89479 16.8906 3.70312 18.5072 5.31978L18.6802 5.49277C20.2969 7.10944 21.1052 7.91777 20.989 8.8935C20.8188 10.3229 19.0509 11.2877 18 12"
+                  ></path></svg
+              ></span>
+              <h3 class="t noMargin fontH fontW-600">Customizable</h3>
+              <p class="noMargin colorDim fontM">
+                Organized layout, everything can be found easily
+              </p>
+            </div>
+            <div class="b flex column relative">
+              <span class="i i18 flex centerA fontW-600 fontM fontH"
+                ><svg class="line" viewBox="0 0 24 24">
+                  <path
+                    d="M18 16L19.8398 17.5858C20.6133 18.2525 21 18.5858 21 19C21 19.4142 20.6133 19.7475 19.8398 20.4142L18 22"
+                  ></path>
+                  <path
+                    d="M14 16L12.1602 17.5858C11.3867 18.2525 11 18.5858 11 19C11 19.4142 11.3867 19.7475 12.1602 20.4142L14 22"
+                  ></path>
+                  <path
+                    d="M20 13.0032L20 7.8199C20 6.12616 20 5.27929 19.732 4.60291C19.3013 3.51555 18.3902 2.65784 17.2352 2.25228C16.5168 2 15.6173 2 13.8182 2C10.6698 2 9.09563 2 7.83836 2.44148C5.81714 3.15122 4.22281 4.6522 3.46894 6.55509C3 7.73875 3 9.22077 3 12.1848L3 14.731C3 17.8013 3 19.3364 3.8477 20.4025C4.09058 20.708 4.37862 20.9792 4.70307 21.2078C5.61506 21.8506 6.85019 21.9757 9 22"
+                  ></path>
+                  <path
+                    d="M3 12C3 10.159 4.49238 8.66667 6.33333 8.66667C6.99912 8.66667 7.78404 8.78333 8.43137 8.60988C9.00652 8.45576 9.45576 8.00652 9.60988 7.43136C9.78333 6.78404 9.66667 5.99912 9.66667 5.33333C9.66667 3.49238 11.1591 2 13 2"
+                  ></path></svg
+              ></span>
+              <h3 class="t noMargin fontH fontW-600">
+                Professionally well coded
+              </h3>
+              <p class="noMargin colorDim fontM">
+                More understandable code make it easier to modify
+              </p>
+            </div>
+            <div class="b flex column relative">
+              <span class="i i18 flex centerA fontW-600 fontM fontH"
+                ><svg class="line" viewBox="0 0 24 24">
+                  <path
+                    d="M21 11V10C21 6.22876 21 4.34315 19.7595 3.17157C18.519 2 16.5225 2 12.5294 2L11.4706 2C7.47752 2 5.48098 2 4.24049 3.17157C3 4.34315 3 6.22876 3 10L3 14C3 17.7712 3 19.6569 4.24049 20.8284C5.48098 22 7.47751 22 11.4706 22H12"
+                  ></path>
+                  <path d="M8 7H16"></path>
+                  <path d="M8 12H13"></path>
+                  <path
+                    d="M21 20.6471L21 17C21 15.5706 19.6569 14 18 14C16.3431 14 15 15.5706 15 17L15 20.5C15 21.2797 15.7326 22 16.6364 22C17.5401 22 18.2727 21.2797 18.2727 20.5L18.2727 17.7647"
+                  ></path></svg
+              ></span>
+              <h3 class="t noMargin fontH fontW-600">Well documented</h3>
+              <p class="noMargin colorDim fontM">
+                Step by step guide to help use the theme in less time
+              </p>
+            </div>
+            <div class="b flex column relative">
+              <span class="i i18 flex centerA fontW-600 fontM fontH"
+                ><svg class="line" viewBox="0 0 24 24">
+                  <path
+                    d="M5 5.96552H8.15M12 5.96552H10.25M8.15 5.96552H10.25M8.15 5.96552V5M10.25 5.96552C9.88076 7.28593 9.10754 8.53411 8.225 9.63103M5.975 12C6.68843 11.344 7.4942 10.5394 8.225 9.63103M8.225 9.63103C7.775 9.10345 7.145 8.24984 6.965 7.86364M8.225 9.63103L9.575 11.0345"
+                  ></path>
+                  <path
+                    d="M7.02231 16.9777C7.07674 18.6978 7.26397 19.7529 7.90796 20.5376C8.07418 20.7401 8.25989 20.9258 8.46243 21.092C9.56878 22 11.2125 22 14.5 22C17.7875 22 19.4312 22 20.5376 21.092C20.7401 20.9258 20.9258 20.7401 21.092 20.5376C22 19.4312 22 17.7875 22 14.5C22 11.2125 22 9.56878 21.092 8.46243C20.9258 8.25989 20.7401 8.07418 20.5376 7.90796C19.7563 7.26676 18.707 7.07837 17 7.02303M7.02231 16.9777C5.30217 16.9233 4.24713 16.736 3.46243 16.092C3.25989 15.9258 3.07418 15.7401 2.90796 15.5376C2 14.4312 2 12.7875 2 9.5C2 6.21252 2 4.56878 2.90796 3.46243C3.07418 3.25989 3.25989 3.07418 3.46243 2.90796C4.56878 2 6.21252 2 9.5 2C12.7875 2 14.4312 2 15.5376 2.90796C15.7401 3.07418 15.9258 3.25989 16.092 3.46243C16.736 4.24713 16.9233 5.30217 16.9777 7.02231C16.9777 7.02231 16.9777 7.02231 17 7.02303M7.02231 16.9777L17 7.02303"
+                  ></path>
+                  <path
+                    d="M13 19L13.8333 17M18 19L17.1667 17M13.8333 17L15.5 13L17.1667 17M13.8333 17H17.1667"
+                  ></path></svg
+              ></span>
+              <h3 class="t noMargin fontH fontW-600">RTL support</h3>
+              <p class="noMargin colorDim fontM">
+                Automatically use RTL format in supported languages
+              </p>
+            </div>
+            <div class="b flex column relative">
+              <span class="i i18 flex centerA fontW-600 fontM fontH"
+                ><svg class="line" viewBox="0 0 24 24">
+                  <path
+                    d="M11.5 3C7.02166 3 4.78249 3 3.39124 4.39124C2 5.78249 2 8.02166 2 12.5C2 16.9783 2 19.2175 3.39124 20.6088C4.78249 22 7.02166 22 11.5 22C15.9783 22 18.2175 22 19.6088 20.6088C21 19.2175 21 16.9783 21 12.5C21 11.1397 21 9.98608 20.961 9"
+                  ></path>
+                  <path
+                    d="M4.5 21.4999C8.87246 16.275 13.7741 9.384 20.9975 14.0424"
+                  ></path>
+                  <path
+                    d="M14 6C14 6 15 6 16 8C16 8 19.1765 3 22 2"
+                  ></path></svg
+              ></span>
+              <h3 class="t noMargin fontH fontW-600">Lazy load support</h3>
+              <p class="noMargin colorDim fontM">
+                Load images asynchronously to improve site performance
+              </p>
+            </div>
+            <div class="b flex column relative" data-text="v2.0">
+              <span class="i i18 flex centerA fontW-600 fontM fontH"
+                ><svg class="line" viewBox="0 0 24 24">
+                  <path
+                    d="M5.04798 8.60657L2.53784 8.45376C4.33712 3.70477 9.503 0.999914 14.5396 2.34474C19.904 3.77711 23.0904 9.26107 21.6565 14.5935C20.2227 19.926 14.7116 23.0876 9.3472 21.6553C5.36419 20.5917 2.58192 17.2946 2 13.4844"
+                  ></path>
+                  <path d="M12 8V12L14 14"></path></svg
+              ></span>
+              <h3 class="t noMargin fontH fontW-600">timeAgo stamp</h3>
+              <p class="noMargin colorDim fontM">
+                Easily change timestamp settings
+              </p>
+            </div>
+            <div class="b flex column relative center m">
+              <h3 class="t noMargin fontH fontW-400 fontD">And more...</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!--[ Footer Section ]-->
+  <footer class='maF noPrint bgDim'>
+    <div class='max flex baseline'>
+      <div class='maFC cInherit u fontH section' id='footer-credit'>
+        <section aria-label='credit attribution' class='default'>
+          <div class='cr'>© <span class='y'><script>
+            document.querySelector('.maFC .y').innerHTML = new Date().getFullYear();</script></span><bdi>
+                    
+  <center><a class='fontW-600' href='https://www.itz-txs.com'>Itz TxS</a></bdi>.<br>Created by <a class='extL' href='javascript:;' rel='noreferrer' target='_blank'><u>TxS Team</u></a></center>
+  </div></section></div>
+  
+  <!--[ body close ]-->
+ </body>
+</html>
