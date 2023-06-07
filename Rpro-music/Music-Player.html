@@ -1,0 +1,46 @@
+<div class='music-box'>
+	<div class='top-bar'>
+		<span>Royal UI Pro Music Player</span>
+	</div>
+	<div class='img-area'>
+		<img alt='' loading='lazy' src='' title='' />
+	</div>
+	<div class='song-details'>
+		<p class='name'></p>
+		<p class='artist'></p>
+	</div>
+  	<div class='slider_volumn'>
+		<i class='has-svg-icon icon-volume-down' id='min-volume'></i>
+		<input class='volume_slider' max='100' min='1' onchange='setVolume()' type='range' value='100' />
+		<i class='has-svg-icon icon-volume-up' id='max-volume'></i>
+	</div>
+	<div class='progress-area'>
+		<div class='progress-bar'>
+			<audio id='main-audio' src=''></audio>
+		</div>
+		<div class='song-timer'>
+			<span class='current-time'>0:00</span>
+			<span class='max-duration'>0:00</span>
+		</div>
+	</div>
+	<div class='controls'>
+		<i class='has-svg-icon music-repeat' id='repeat-plist' title='Playlist looped'><span>repeat</span></i>
+		<i class='has-svg-icon music-skippre' id='prev'></i>
+		<div class='play-pause'>
+			<i class='has-svg-icon music-play play'></i>
+		</div>
+		<i class='has-svg-icon music-skipnext' id='next'></i>
+		<i class='has-svg-icon music-queue' id='more-music'></i>
+	</div>
+	<div class='music-list'>
+		<div class='header-music'>
+			<div class='row-music'>
+				<i class='has-svg-icon list music-queuemenu'></i>
+				<span>Music list</span>
+			</div>
+			<i class='has-svg-icon music-close' id='close'></i>
+		</div>
+		<ul>
+		</ul>
+	</div>
+</div>
