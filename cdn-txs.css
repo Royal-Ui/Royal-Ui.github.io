@@ -196,12 +196,12 @@ nav .profile-details i{
   margin-bottom: 15px;
 }
 .overview-boxes .box-topic{
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 500;
 }
 .home-content .box .number{
   display: inline-block;
-  font-size: 35px;
+  font-size: 20px;
   margin-top: -6px;
   font-weight: 500;
 }
