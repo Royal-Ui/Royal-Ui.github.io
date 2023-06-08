@@ -1,298 +1,135 @@
-
 <!DOCTYPE html>
-<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.3.0' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale.language' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
-<b:attr name='xmlns' value='' />
-<b:attr name='xmlns:b' value='' />
-<b:attr name='xmlns:expr' value='' />
-<b:attr name='xmlns:data' value='' />
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--[ <head> Open/Close ]-->
-  <head></head>
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="/txs-database.css">
 
-  <title>TxS Database</title>
+	<title>TxS Database</title>
+</head>
+<body>
 
-  <!--[ Meta for browser ]-->
-  <meta charset='UTF-8'/>
-  <meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/>
-  <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
-  
-  <!--[ style link ]-->
-  <link rel="stylesheet" href="/txs-database.css">
 
-  <body class='noJS nB index home'>
-  
-  <!--[ Element ]-->
-  <div class='maW flex column bgInherit' id='top'>
-    
- <!--[ Header ]-->
- <header class="maH noPrint relative">
-   <div class="max flex centerA">
-     <input class="forM hidden" id="forMenu" type="checkbox" />
-      <input class="forB hidden" id="forBook" type="checkbox" />
-       <div class="maHT shrink cInherit notranslate noFilter section"id="header-title">
-               
-  <div class="widget Header" data-version="2" id="Header1">
-    <h1 class="heN noMargin d">
-     <span class="heT block" title="TxS">
-       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><g><path d='M24,28a1,1,0,0,1-.62-.22l-6.54-5.23a1.83,1.83,0,0,1-.13.16l-4,4a1,1,0,0,1-1.65-.36L8.2,18.72,2.55,15.89a1,1,0,0,1,.09-1.82l26-10a1,1,0,0,1,1,.17,1,1,0,0,1,.33,1l-5,22a1,1,0,0,1-.65.72A1,1,0,0,1,24,28Zm-8.43-9,7.81,6.25L27.61,6.61,5.47,15.12l4,2a1,1,0,0,1,.49.54l2.45,6.54,2.89-2.88-1.9-1.53A1,1,0,0,1,13,19a1,1,0,0,1,.35-.78l7-6a1,1,0,1,1,1.3,1.52Z'></path></g></svg></span></h1></div></div>
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs-smile'></i>
+			<span class="text">TxS Database</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-shopping-bag-alt' ></i>
+					<span class="text">Coming...</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-doughnut-chart' ></i>
+					<span class="text">Coming...</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-message-dots' ></i>
+					<span class="text">Coming...</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-group' ></i>
+					<span class="text">Team</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog' ></i>
+					<span class="text">Coming...</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
 
-  <!--[ Links ]-->              
-  <div class="maHR flex grow centerA relative section" id="header-menu">
-      <nav aria-label="main navigation">
-        <ul class="maHM noList flexIn baseline cInherit fontD"><li>
-          <a class="relative" href="https://www.itz-txs.com"> Blog </a>
-            </li><li>
-              <a class="relative" href="https://www.royal-ui.xyz">
-                Royal UI Pro</a></li></ul></nav></div>
-  <div class="maHI flex centerA relative">
-      <label aria-label="Menu" class="mC fc ic i20 relative" for="forMenu">
-        <svg class="line" viewBox="0 0 24 24">
-           <circle cx="12" cy="12" r="1.5"></circle>
-           <circle cx="12" cy="4.5" r="1.5"></circle>
-           <circle cx="12" cy="19.5" r="1.5"></circle>
-        </svg></label></div></div></header>
 
-  <!--[ Website Entry ]-->
-  <section class='maL'>
-    <div class='max'>
-      <div class='maLT'>
-        <div class='b flexIn center fontH i18' data-text='TxS Database'>
-          <svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></div>
-           <h2 class='t relative'><strong> Hi, Welcome To </strong><br>
-            <span class='i relative'style='--bs: #fdd834'>TxS Database</span>.</h2>
-               <p class='d'>Discover the Storage of Royal UI Blogger Theme.</p></div></div></section>
-               
-  <!--[ Royal UI Pro Database ]-->
-  <section aria-label="main features" class="maM" id="features">
-  <div class="max">
-    <div class="maB">
-      <div class="tt">
-        <h2 class="noMargin fontW-600 fontA fontH">Other Royal Ui files</h2>
-      </div>
-      <div class="section" id="feature-loop">
-          <div class="fp flex wrap">
-           <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-             <a href="/css/fonts.min.css"><h3 class="t noMargin fontH fontW-600">fonts.min.css</h3></a>
-              <p class="noMargin colorDim fontM">
-                Google Fonts
-              </p>
-            </div>
-             <div class="section" id="feature-loop">
-          <div>
-           <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-             <a href="/codebox.min.js"><h3 class="t noMargin fontH fontW-600">codebox.min.js</h3></a>
-              <p class="noMargin colorDim fontM">
-                Fineshop design 
-              </p>
-            </div>
-        </div>
-      </div>
-         <div class="tt">
-        <h2 class="noMargin fontW-600 fontA fontH">Royal Ui CSS</h2>
-      </div>
-      <div class="section" id="feature-loop">
-          <div class="fp flex wrap">
-           <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-              <a href="/css/BookmarkPosts.min.css"><h3 class="t noMargin fontH fontW-600">Bookmark Post</h3></a>
-              <p class="noMargin colorDim fontM">
-                TxS Team
-              </p>
-            </div>
-            <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
 
-              <a href="/css/CookieConsent.min.css"><h3 class="t noMargin fontH fontW-600">Cookie Consent</h3></a>
-              <p class="noMargin colorDim fontM">
-                TxS Team
-              </p>
-            </div>
-            <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link">Categories</a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#" class="notification">
+				<i class='bx bxs-bell' ></i>
+				<span class="num">8</span>
+			</a>
+			<a href="#" class="profile">
+				<img src="img/people.png">
+			</a>
+		</nav>
+		<!-- NAVBAR -->
 
-              <a href="/css/CountdownDownloadBox.min.css"><h3 class="t noMargin fontH fontW-600">Countdown Download Box</h3></a>
-              <p class="noMargin colorDim fontM">
-                TxS Team
-              </p>
-            </div>
-            <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>TxS Database</h1>
+				</div>
+				<a href="#" class="btn-download">
+					<i class='bx bxs-cloud-download' ></i>
+					<span class="text">DownLoad Royal UI</span>
+				</a>
+			</div>
 
-              <a href="/css/RelatedPosts.min.css"><h3 class="t noMargin fontH fontW-600">Related Post</h3></a>
-              <p class="noMargin colorDim fontM">
-                TxS Team
-              </p>
-            </div>
-            <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
+			<ul class="box-info">
+				<li>
+					<i class='bx bxs-font' ></i>
+					<span class="text">
+						<h3>Fonts</h3>
+						<p>Google Fonts</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-group' ></i>
+					<span class="text">
+						<h3>Other Files</h3>
+						<p>Name</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-dollar-circle' ></i>
+					<span class="text">
+						<h3>Other Files</h3>
+						<p>Name</p>
+					</span>
+				</li>
+			</ul>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+	
 
-             <a href="/css/TableOfContents.min.css"><h3 class="t noMargin fontH fontW-600">Table Of Contents</h3></a>
-              <p class="noMargin colorDim fontM">
-                TxS Team
-              </p>
-            </div>
-            <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-
-              <a href="/css/ThemeColor.min.css"><h3 class="t noMargin fontH fontW-600">Theme Color</h3></a>
-              <p class="noMargin colorDim fontM">
-                TxS Team
-              </p>
-            </div>
-        </div>
-      </div>
-            <div class="tt">
-        <h2 class="noMargin fontW-600 fontA fontH">Royal Ui JS</h2>
-      </div>
-      <div class="section" id="feature-loop">
-          <div class="fp flex wrap">
-           <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-             <a href="/js/AddtionalJavascripts.min.js"><h3 class="t noMargin fontH fontW-600">Additional Javascript</h3></a>
-              <p class="noMargin colorDim fontM">
-               TxS Team
-              </p>
-            </div>
-             <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-             <a href="/js/AdsenseAds.min.js"><h3 class="t noMargin fontH fontW-600">Adsense Ads</h3></a>
-              <p class="noMargin colorDim fontM">
-               TxS Team
-              </p>
-            </div>
-             <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-             <a href="/js/AutoChapters.min.js"><h3 class="t noMargin fontH fontW-600">Next And Prev Post</h3></a>
-              <p class="noMargin colorDim fontM">
-               TxS Team
-              </p>
-            </div>
-             <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-             <a href="/js/AutoRelated.min.js"><h3 class="t noMargin fontH fontW-600">Auto Related</h3></a>
-              <p class="noMargin colorDim fontM">
-               TxS Team
-              </p>
-            </div>
-             <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-             <a href="/js/BookmarkPosts.min.js"><h3 class="t noMargin fontH fontW-600">Bookmark Post</h3></a>
-              <p class="noMargin colorDim fontM">
-               TxS Team
-              </p>
-            </div>
-             <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-             <a href="/js/CookieConsent.min.js"><h3 class="t noMargin fontH fontW-600">Cookie Consent</h3></a>
-              <p class="noMargin colorDim fontM">
-               TxS Team
-              </p>
-            </div>
-                <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-             <a href="/js/CopyPreContent.min.js"><h3 class="t noMargin fontH fontW-600">Copy Pre Hover</h3></a>
-              <p class="noMargin colorDim fontM">
-               TxS Team
-              </p>
-            </div>
-                <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-             <a href="/js/CountdownDownloadBox.min.js"><h3 class="t noMargin fontH fontW-600">Countdown Download Box</h3></a>
-              <p class="noMargin colorDim fontM">
-               TxS Team
-              </p>
-            </div>
-             <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-             <a href="/js/NoInternetWidget.min.js"><h3 class="t noMargin fontH fontW-600">No Internet Widget</h3></a>
-              <p class="noMargin colorDim fontM">
-               TxS Team
-              </p>
-            </div>
-             <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-             <a href="/js/RelatedPosts.min.js"><h3 class="t noMargin fontH fontW-600">Related Posts</h3></a>
-              <p class="noMargin colorDim fontM">
-               TxS Team
-              </p>
-            </div>
-             <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-             <a href="/js/TableOfContents.min.js"><h3 class="t noMargin fontH fontW-600">Table Of Contents</h3></a>
-              <p class="noMargin colorDim fontM">
-               TxS Team
-              </p>
-            </div>
-        </div>
-      </div>
-         <div class="tt">
-        <h2 class="noMargin fontW-600 fontA fontH">Royal Ui Libs</h2>
-      </div>
-      <div class="section" id="feature-loop">
-          <div class="fp flex wrap">
-           <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-              <a href="/lib/highlight-11.5.0.min.js"><h3 class="t noMargin fontH fontW-600">HighLight v11.5.0 Js</h3></a>
-              <p class="noMargin colorDim fontM">
-                TxS Team
-              </p>
-            </div>
-           <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-              <a href="/lib/translate.js"><h3 class="t noMargin fontH fontW-600">Translate Js</h3></a>
-              <p class="noMargin colorDim fontM">
-                TxS Team
-              </p>
-            </div>
-            <div class="b flex column relative">
-              <span class="i i18 flex centerA fontW-600 fontM fontH"
-                ><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M179.38391,179.442a5.02556,5.02556,0,0,0,7.5831.5436l3.01715-3.02a5.031,5.031,0,0,0-7.11042-7.1173l-1.72983,1.72145' transform='translate(-169.39568 -166.4353)'></path><path d='M183.40745,177.42863a5.02556,5.02556,0,0,0-7.5831-.5436l-3.01715,3.02a5.031,5.031,0,0,0,7.11042,7.1173l1.71976-1.72145' transform='translate(-169.39568 -166.4353)'></path></svg></span>
-              <a href="/lib/vue-2.6.11.min.js"><h3 class="t noMargin fontH fontW-600">Vue v2.6.11 Js</h3></a>
-              <p class="noMargin colorDim fontM">
-                TxS Team
-              </p>
-            </div>
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <!--[ Footer Section ]-->
-  <footer class='maF noPrint bgDim'>
-    <div class='max flex baseline'>
-      <div class='maFC cInherit u fontH section' id='footer-credit'>
-        <section aria-label='credit attribution' class='default'>
-          <div class='cr'>© <span class='y'><script>
-            document.querySelector('.maFC .y').innerHTML = new Date().getFullYear();</script></span><bdi>
-                    
-  <a class='fontW-600' href='https://www.itz-txs.com'>Itz TxS</a></bdi>.<br>Created by <a class='extL' href='javascript:;' rel='noreferrer' target='_blank'><u>TxS Team</u></a>
-  </div></section></div>
-  
-  <!--[ body close ]-->
- </body>
+	<script src="/txs-database.js"></script>
+</body>
 </html>
