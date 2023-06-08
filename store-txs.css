@@ -9,6 +9,9 @@
 h2{
   margin:30px;
 }
+a {
+    text-decoration-line: none;
+}
 .sidebar{
   position: fixed;
   height: 100%;
