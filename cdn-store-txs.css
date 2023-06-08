@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+h2{
+  margin:30px;
+}
 .sidebar{
   position: fixed;
   height: 100%;
